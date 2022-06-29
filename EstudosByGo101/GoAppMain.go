@@ -5,5 +5,4 @@ func main() {
 	Slices()
 	Maps()
 	Structs()
-	Structs()
 }

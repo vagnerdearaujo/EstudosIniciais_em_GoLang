@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func Slices() {
+	println("================================= Slices ================================")
 	//------------------  SLICES ----------------------------------------
 	//Diferentemente da criação de um array que é estático a criação de um slice permite o redimensionamento
 	//Para auxiliar a gerenciar um slice é possível saber o seu tamanho e sua capacidade
@@ -37,9 +38,11 @@ func Slices() {
 	//Para utilizar as posições préviamente alocadas após o tamanho, é necessário append
 	sliceNovo = append(sliceNovo, "Quarta posição")
 	fmt.Println("Slice novo com 1 append", sliceNovo, len(sliceNovo), cap(sliceNovo))
+	println("================================= Fim Slices ================================")
 }
 
 func Maps() {
+	println("================================= Maps ================================")
 	//Map é uma coleção do tipo Chave / Valor
 	//As chaves não precisam ter o mesmo tipo dos valores
 
@@ -68,9 +71,11 @@ func Maps() {
 
 	idade, existe = idades["Chiquinho"]
 	fmt.Println("Quando a chave não existe o valor da variável \"existe\" será false: idade =", idade, "; existe =", existe)
+	println("================================= Fim Maps ================================")
 }
 
 func Structs() {
+	println("================================= Structs ================================")
 	//Structs são tipos compostos equivalentes aos structs de C# ou Register do Delphi
 	type Pessoa struct {
 		Nome      string
@@ -98,5 +103,6 @@ func Structs() {
 	fmt.Println(vgn)
 	fmt.Println(smn)
 	fmt.Println(btrz)
+	println("================================= Fim Structs ================================")
 
 }

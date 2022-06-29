@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func TesteLoop() {
+	println("================================= TesteLoop ================================")
 	nomes := []string{"Vagner", "Simone", "Beatriz", "Juliana", "Isabel", "Fábio", "Flavio", "Chiquinho", "Walter", "Claudinho"}
 
 	//For padrão
@@ -33,4 +34,5 @@ func TesteLoop() {
 			comandos ...
 		}
 	*/
+	println("================================= Fim TesteLoop ================================")
 }
