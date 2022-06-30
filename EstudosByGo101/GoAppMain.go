@@ -1,8 +1,9 @@
 package main
 
 func main() {
-	TesteLoop()
-	Slices()
-	Maps()
-	Structs()
+	//Loop()
+	//Slices()
+	//Maps()
+	//Structs()
+	Metodos()
 }

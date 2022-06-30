@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func TesteLoop() {
+func Loop() {
 	println("================================= TesteLoop ================================")
 	nomes := []string{"Vagner", "Simone", "Beatriz", "Juliana", "Isabel", "Fábio", "Flavio", "Chiquinho", "Walter", "Claudinho"}
 

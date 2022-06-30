@@ -3,14 +3,15 @@ package main
 import "fmt"
 
 func Structs() {
-	println("================================= Structs ================================")
-	//Structs são tipos compostos equivalentes aos structs de C# ou Register do Delphi
 	type Pessoa struct {
 		Nome      string
 		SobreNome string
 		Idade     uint8
 		Status    bool
 	}
+
+	println("================================= Structs ================================")
+	//Structs são tipos compostos equivalentes aos structs de C# ou Register do Delphi
 
 	//A atribuição pode ser campo a campo
 	var vgn Pessoa
